@@ -5,7 +5,7 @@
 ### criado com HTML5 e CSS3 para estudo responsivo 😉👌
 ----------------------------------------------
 
-## Visitar => [animai](animai.netlify.app)
+## Visitar => [animai](https://animai.netlify.app/)
 ----------------------------------------------
 ### Inicio
 ![animai](topo-animai.png)
