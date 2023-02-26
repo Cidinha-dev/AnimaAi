@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+/* cabeçalho */
+#img_header{ 
+    border-style:dashed;
+    border-color:  rgb(255, 221, 0) ;
+    display: flex;
+    position: relative;
+    flex-direction:row;
+    width: 100%;
+    height: 40rem;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 5px rgb(20,20, 20);
+    background-image: url(../img/background_comic_roxo_amarelo_Designed\ by\ Freepik.jpg);
+}
+.titulo_header{
+    color:  rgb(62, 0, 116); 
+    font-family: cursive;
+    font-size: 3rem;
+    padding: 4rem;
+    text-align: center;
+    text-shadow: 5px 5px 5px  rgb(0, 0, 0) ;
+}
+.titulo_header:hover{
+    font-style: italic;
+}
+.chamada_header{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 3rem;
+    color: rgb(34, 0, 60); 
+    background-color: rgb(255, 217, 0);
+    padding: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.chamada_header:hover{
+    font-style: italic;
+    box-shadow: 5px 5px 5px rgb(20,20, 20);
+}
+
+/* barra de navegação */
+nav{
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    border-style:groove;
+    position:sticky;
+    top: 0%;
+    border: solid rgb(34, 0, 60); 
+    border-radius:40px;
+    background-color:  rgb(62, 0, 116); 
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgb(20,20, 20);
+}
+nav ul li{  
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+    margin: 0px 20px;
+}
+.link_menu{   
+    padding: 15px;
+    font-weight: bold;
+    font-size: 160%;
+    text-decoration: none;
+    color: rgb(255, 217, 0);
+    /*transition: all 01s;*/
+}
+.link_menu:hover{
+    font-size: 22px;
+    color:white;
+    box-shadow: 5px 5px 5px rgb(20,20, 20);
+    background-color: rgb(100, 0, 188); 
+}
+
+
+/* menu responsivo */
+.dropdown{
+    display: inline-block;
+    position:relative;
+    background-color: rgb(62, 0, 116); 
+    padding: 10px;
+    border: 0.2em solid rgb(34, 0, 60); 
+    box-shadow: 5px 5px 5px rgb(20,20, 20);
+    color:rgb(255, 221, 0);
+    margin-left: 5%;
+}
+.conteudo_drop{
+    display: none;
+    position: absolute;
+    background-color:   rgb(62, 0, 116); 
+    padding: 10px 15px;
+    border: 1px solid   rgb(34, 0, 60); 
+    min-width: 300px; 
+}
+.conteudo_drop a{
+    color: rgb(255, 217, 0);
+    font-weight:bold;
+    text-decoration: none;
+}
+.dropdown:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(100, 0, 188); 
+}
+.conteudo_drop a:hover{
+    font-style: italic;
+    font-weight: bold;
+    text-shadow:5px 5px 5px rgb(20,20, 20); ;
+}
+.dropdown:hover .conteudo_drop{
+    display: block;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 5px rgb(20,20, 20);
+}
+.link_mobile{
+    font-size: 25px;
+    display:block ;
+}
+
+
+/* container */
+.container{
+    display: flex;
+
+}
+.main{
+    background-color: powderblue;
+}
+.side{
+    background-color:lightskyblue;
+}
+
+/* titulo */
+h2{
+    font-size: 2rem;
+    font-family: cursive;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    margin: 50px 18px;
+    color: black;
+    text-shadow: 2px 3px 3px rgb(86, 86, 86);
+}
+h3{
+    width: 100%;
+    padding: 0px 5%;
+    text-align: center;
+    color:black; 
+    text-shadow: 2px 2px 3px rgb(86, 86, 86);
+}
+h2:hover, h3:hover{
+    font-style: italic;
+}
+/* principal */
+.main{
+    width: 63%;
+    padding: 10px;
+    margin-left: 5% ;
+}
+
+.card_article{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    height: 335px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-style: dashed;
+}
+.img_card{
+    border-style: double;
+    width: 300px;
+    height: 330px;
+}
+.card{
+    font-size: larger;
+    text-align: center;
+    width: 55%;
+    height: 330px;
+    padding: 20px;
+}
+.data{
+    padding: 18px 0px 18px 0px;
+}
+
+/* lateral */
+.side{
+    width: 27%;
+    margin-right: 5%;
+}
+.card_side{
+    display: flex;
+    border: solid black;
+    border-style: double;
+    border-bottom-right-radius: 50px;
+    margin:5%;
+    background-color: white;
+}
+.img_side{
+    border-style: double;
+    width: 50%;
+    height: 150px;
+    background-size: cover;
+}
+.date_side{
+    color: black;
+    padding: 3%;
+    text-align: center;
+}
+
+/* jogos */
+.section_gamer{
+    margin: 2% 5%;
+    height: 650px;
+    background-color:rgb(110, 255, 221);
+}
+.img_gamer{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-color:rgb(185, 255, 239);
+    border-radius: 50px;
+    box-shadow: 8px 10px 10px rgb(0, 0, 0);
+    background-image: url(../img/caveirafone.png);
+}
+.section_eventos{
+    padding: 5em;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    color: rgb(255, 217, 0);
+    background-color: rgb(62, 0, 116);
+}
+.footer a{
+    color:  rgb(255, 217, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
