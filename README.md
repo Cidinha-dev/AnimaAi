@@ -8,13 +8,12 @@
 ## Visitar => [animai](https://animai.netlify.app/)
 ----------------------------------------------
 ### Inicio
-![animai](topo-animai.png)
+![animai](topo-animai.png) 
 ---------------------------------------------
 ### Meio
 ![animai](meio-animai.png)
 ---------------------------------------------
 ### Formato Mobile Responsivo
 ![animai](responsivo-animai.png)
----------------------------------------------
-## Futuramento irei adicionar novas tecnologias
+
 
